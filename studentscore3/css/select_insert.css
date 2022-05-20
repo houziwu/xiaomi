@@ -1,0 +1,113 @@
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.header{
+			height:100px;
+			/* border: 1px solid black; */
+			background-color: aliceblue;
+		}
+		.menu,.tel{
+			float: left;
+		}
+		.menu{
+			width: 14%;
+			height: 629px;
+			background-color: #333333;
+		}
+		.tel{
+			width: 86%;
+			height: 629px;
+			/* background: url(../img/456.jpg)center/cover no-repeat; */
+			/* border: 1px solid black; */
+			/* background-color: #0367A6; */
+		}
+		.title{
+			width: 14%;
+			height: 100px;
+			float: left;
+			line-height: 100px;
+			text-align: center;
+			font-size: 17px;
+			font-family: "微软雅黑";
+			color: #FFFFFF;
+			/* border: 1px solid black; */
+			background-color: #333333;
+		}
+		.nav{
+			width: 80%;
+			height: 100px;
+			float: left;
+			/* border: 1px solid black; */
+		}
+		.nav_item{
+			width: 150px;
+			height: 20px;
+			float: left;
+			text-align: center;
+			margin-top: 40px;
+			border-right: 1px solid black;
+		}
+		.nav_item:last-child{
+			border: none;
+		}
+		.nav_item:first-child{
+			margin-left: 300px;
+		}
+		.nav_item1{
+			height: 20px;
+			text-align: center;
+			margin-top: 50px;
+		}
+		.a1{
+			text-decoration: none;
+			font-family: "楷体";
+		}
+		.a2{
+			text-decoration: none;
+			line-height: 70px;
+			color: #FFFFFF;
+			font-family: "楷体";
+		}
+		.tab1{
+			width: 820px;
+			font-family: "楷体";
+			text-align: center;
+			margin-left: 220px;
+			border-collapse:collapse;
+			margin-top: 50px;
+			border: 2px solid black;
+			/* border: darkgrey solid 1px;
+			box-shadow: 0 0.9rem 1.7rem rgba(0, 0, 0.25), 0 0.7rem 0.7rem rgba(0, 0, 0.22); */
+		}
+		.tab1 tbody{
+			/* width: 100%; */
+			display: block;
+			overflow-y: scroll;
+			height: 200px;
+		}
+		.tr1 td{
+			width: 820px;
+			text-align: center;
+			font-family: "楷体";
+			/* padding: 20px; */
+			border: darkgrey solid 1px;
+		}
+		.tr2 td{
+			/* width: 820px; */
+			padding: 7px;
+			border: darkgrey solid 1px;
+			text-align: center;
+			font-family: "楷体";
+		}
+		.a3{
+			text-decoration: none;
+			font-family: "楷体";
+			color: darksalmon;
+		}
+		.nav_item1:hover{
+			height: 70px;
+			text-align: center;
+			margin-top: 50px;
+			background-color: darkorange;
+		}
